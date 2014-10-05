@@ -38,12 +38,10 @@ public class MainActivity extends ActionBarActivity {
 
 			gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 				public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
-					Toast.makeText(MainActivity.this, "" + (position+1), Toast.LENGTH_SHORT).show();
+					Toast.makeText(MainActivity.this, brand.get(position), Toast.LENGTH_SHORT).show();
 				}
 			});
-
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
