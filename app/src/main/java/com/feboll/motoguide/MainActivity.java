@@ -34,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
 
 			GridView gridview = (GridView) findViewById(R.id.gridView);
 
-			gridview.setAdapter(new ImageAdapter(MainActivity.this, display.getWidth(), brand));
+			gridview.setAdapter(new GridAdapter(MainActivity.this, display.getWidth(), brand));
 
 			gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 				public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
