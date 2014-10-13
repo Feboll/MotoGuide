@@ -2,6 +2,7 @@ package com.feboll.motoguide;
 
 import android.database.Cursor;
 import android.support.v7.app.ActionBarActivity;
+import android.app.TabActivity;
 import android.os.Bundle;
 import android.view.Display;
 import android.view.Menu;

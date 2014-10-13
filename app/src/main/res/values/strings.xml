@@ -4,5 +4,7 @@
     <string name="app_name">MotoGuide</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_item_list">Список моделей</string>
+    <string name="title_activity_item_description">Описание модели</string>
 
 </resources>

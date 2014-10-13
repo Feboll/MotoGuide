@@ -3,12 +3,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 							android:orientation="vertical"
 							android:layout_width="fill_parent"
-							android:layout_height="fill_parent">
+							android:layout_height="fill_parent"
+							android:padding="3dp">
 
-	<TextView
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:gravity="center"
-	android:text="New Text"
-	android:id="@+id/brandName"/>
+	<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:background="@color/border_item"
+			android:layout_height="fill_parent"
+			android:paddingBottom="2dp">
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:background="@color/bg_item"
+			android:text="New Text"
+			android:id="@+id/brandName"/>
+	</LinearLayout>
+
 </LinearLayout>
